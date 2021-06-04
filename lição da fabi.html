@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<meta name="language" content="pt-BR">
+<title>Links (HTML anchor link - links de ancoragem) HTML</title>
+<style type="text/css">
+
+
+ 	p{	color: rgb(0, 0, 0); /* cores #hexa, rgb ou rgba*/
+ 		background-color: rgb(230, 255, 1);/* cor de fundo */
+ 		text-align: center;/* alinhamento do texto - justify (justificado)*/
+ 		line-height: 30px; /altura da linha - entre linhas - px é pixel/
+ 		font-weight: bolder; /peso da fonte - bold - negrito (700) e bolder é mais negrito (900)/
+ 		font-size: 30px;/* tamanho da fonte */
+ 		font-family: verdana; /* tipo família da fonte (verdana, arial, roboto, lato)*/
+ 		font-style: italic;/* estilo itálico */
+ 		/text-decoration: underline; underline - linha embaixo | overline - linha em cima/ }
+ 	h3{text-transform: uppercase;} /uppercase - maiúsculas | lowercase - minúsculas | capitalize - capitular/
+	.capitular{text-transform: capitalize; font-size: 70px; color: #000; font-style: normal;}
+
+	/Links/
+
+	/tag a - vale pro documento inteiro/
+	a { color: #000; text-decoration: none;} 
+	/*:hover - quando passar o mouse em cima */
+	a:hover { color: #1c7395; text-decoration: underline; font-size: 16px;}
+
+	/só para os links que eu aplicar a classe/
+	.vermelho{ color: red; }
+	.vermelho:hover { color: red; text-decoration: none; }
+
+
+</style>
+</head>
+<body>
+	<a id="topo"></a>
+	<!-- Links para os parágrafos -->
+	<a class="vermelho" href="#p1">Sua vida </a><br> <!-- id não tem # e href tem -->
+	<a class="vermelho" href="#p2">Seu apelido</a><br>
+	<a class="vermelho" href="#p3">A sua batalha do dia a dia </a><br>
+	<a class="vermelho" href="#p4">O Instituto Proa</a><br>
+	<a class="vermelho" href="#p5">Fim</a><br>
+	<!-- parágrafo 1 -->
+	<!-- pode usar <a id="p1"></a> caso não seja possível usar o <p> (exemplo) -->
+	<h3>Sua vida </h3><span></span>
+	<p id="p1"><span class="capitular"> Sua vida - vendo sua mãe trabalhar duramente por anos, para tentar dar coisas boas a ele, o inspirou para seguir uma vida de trabalho honesto, mesmo que trabalhasse até não aguentar mais.  As suas lições de sua mãe lhe ajudaram a seguir um caminho certo honesto, mesmo rodeado por todo o mau que se possa existir em uma comunidade, mais com foco, força e fé, tudo é possível. Infelizmente, muitos de seus amigos de infância não conseguiram o mesmo, com muitos perdidos na vida errada.</p>	
+
+	<!-- parágrafo 2 -->
+	<p id="p2" >Seu apelido  - Sofreu muito bully na escola, mais ao tomar uma atitude de raspar seu cabelo, muitos o zoaram, mais nessa mesma época, ele foi consagrado seu apelido, Batata, parece que foi uma ajuda que deram para ele, que o ajudou a passar por toda essa fase ruim do bully. Infelizmente, quem deu esse apelido para ele, não está mais entre nós. Ryan, sempre em nossos corações.</p>
+	
+	<!-- parágrafo 3 -->
+	<p id="p3" >A sua batalha do dia a dia - Trabalhando em 3 lugares diferentes, um dos trabalhos eram nas ruas da grande São Paulo, vendendo alimentos. Mais ao perceber que aquela vida era difícil e complicada, ele conheceu o Instituto Proa, o qual viu que poderia mudar o seu futuro. E com isso, fez de imediato a sua inscrição, parando de trabalhar na rua, somente em serviços que não ocupariam o horário do curso.</p>
+
+	<!-- parágrafo 4 -->
+	<p id="p4" >O Instituto Proa -Atualmente, se encontra cursando Programação no Instituto Proa, agradecido por todas as oportunidades que eles lhe deram, todo o conhecimento e atenção que lhe foi dado, jamais será esquecido, e ele irá sempre recomendar o mesmo, para todos os jovens que não têm condições para pagar um curso e investir em seu futuro. Toda a ajuda não foi em vão, é só o começo de uma jornada cheia de batalhas diárias, que todos do Proa abriram para ele.</p>
+
+	<!-- parágrafo 5 -->
+	<p id="p5" >Uma música que mostra um pouco da sua batalha e oque ele espera para o seu futuro. - 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/61SgZ9d-m6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.</p>
+	<p><a href="#topo">Voltar ao Topo</a></p>
+
+
+
+</body>
+</html>
